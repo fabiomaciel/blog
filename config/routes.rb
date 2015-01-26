@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   get '/curriculum', :to => redirect('/curriculum.html')
 
-  #get '/main', to: 'main#index'
-  #resources :articles
+  get '/main', to: 'main#index'
+  resources :articles
 
 
   # The priority is based upon order of creation: first created -> highest priority.

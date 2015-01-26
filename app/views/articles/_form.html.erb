@@ -1,0 +1,35 @@
+<section>
+    <h1>
+        Edit Article
+    </h1>
+    <section>
+        <% if @article.errors.any? %>
+            <div id="error_explanation">
+                <h2>
+                    <%= pluralize(@article.errors.count, "error") %>
+                    it was not possible to save this article
+                </h2>
+                <ul>
+                    <% @article.errors.full_messages.each do |msg| %>
+                        <li><%= msg %>
+                    <% end %>
+                </ul>
+            </div>
+        <% end %>
+    <section>
+    <%=form_for :article, url: article_path(@article), method: :patch do |f| %>
+        <p>
+            <%= f.label :title %><br />
+            <%= f.text_field :title %>
+        </p>
+        <p>
+            <%= f.label :text %><br />
+            <%= f.text_field :text %>
+        </p>
+        <p>
+            <%= f.submit %>
+        </p>
+    <% end %>
+    <%= link_to 'Cancel', articles_path %>
+</section>
+
