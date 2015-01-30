@@ -10,5 +10,20 @@
         <%= @article.text %>
         </p></strong>
     </p>
+    <%= link_to 'delete', article_path(@article),
+                method: :delete,
+                data: { confirm: 'Are you sure?' } %> |
+    <%= link_to 'edit', edit_article_path(@article) %> |
     <%= link_to 'show all', articles_path %>
-<article>
+
+  <h2>add new comment</h2>
+  <%= render 'comments/form' %>
+
+  <h2>Comments</h2>
+
+  <%= render @article.comments %>
+  <% if @article.comments.size == 1 then %>
+    no comments
+  <% end %>
+
+</article>

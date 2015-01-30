@@ -1,8 +1,17 @@
 Rails.application.routes.draw do
+  resources :users
+
   get '/curriculum', :to => redirect('/curriculum.html')
 
   get '/main', to: 'main#index'
-  resources :articles
+
+  get '/auth/login', to: 'auth#index'
+  get '/auth/logout', to: 'auth#logout'
+  post '/auth/login', to: 'auth#login'
+
+  resources :articles do
+    resources :comments
+  end
 
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -31,6 +31,9 @@ group :production, :postgresql do
   gem 'pg'
 end
 
+### developer changes
+gem 'bcrypt'
+
 ### / OpenShift changes
 
 # Use SCSS for stylesheets

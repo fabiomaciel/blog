@@ -1,0 +1,5 @@
+<% if comment.author then %>
+  <h3>Author:</h3><%= comment.author %>
+  <h3>Comment:</h3><%= comment.body %>
+  <%= link_to 'delete', article_comment_path(comment.article, comment), method: :delete %>
+<% end %>
