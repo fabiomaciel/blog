@@ -28,31 +28,22 @@ Experiência profissional
 
 #### Metasix - São Paulo ####
 
-__periodo__ abril de 2014 - atual<br/>
-__cargo__ programador sênior
-
-
-##### Atividades
-* Desenvolvimento de novas soluções e melhorias em um CRM utilizado pelo MEC.
-* Criação de API RESTful.
-* Introdução de novas tecnologias web (back-end e front-end).
-* Desenvolvimento de games com HTML5 e C++ para web e dispositivos mobiles (Android, IOS).
-* Desenvolvimento de aplicações real-time em nodejs/scala.
-* Configurações e instalações de ambientes (dev, prod).
-
-
-#### Call Tecnologia - São Paulo ####
-
-__periodo__ agosto de 2013 - abril de 2014<br/>
+__periodo__ agosto de 2013 - atual<br/>
 __cargo__ programador sênior
 
 
 ##### Atividades
 * Manutenção de um CRM utilizado pelo 156 de São Paulo.
+* Desenvolvimento de novas soluções e melhorias em um CRM utilizado pelo MEC.
+* Criação de API RESTful.
 * Arquitetura modular utilizando serviços REST com Java (JAX-RS).
-* Introdução de novas tecnologias web (backend & frontend).
+* Introdução de novas tecnologias web (back-end e front-end).
+* Desenvolvimento de games com HTML5 e C++ para web e dispositivos mobiles (Android, IOS).
+* Desenvolvimento de aplicações real-time em nodejs/scala.
+* Configurações e instalações de ambientes (dev, prod).
 * Acompanhamento da implatação do portal da prefeitura de São Paulo
 * Desenvolvimento de aplicações real-time.
+
 
 
 #### Fundação Faculdade de Medicina (USP) - São Paulo
